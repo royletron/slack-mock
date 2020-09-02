@@ -1,7 +1,7 @@
 'use strict'
 
 const outgoingWebhooks = module.exports
-const request = require('request')
+const request = require('./request')
 const logger = require('../lib/logger')
 
 outgoingWebhooks.calls = []

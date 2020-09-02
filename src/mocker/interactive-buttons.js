@@ -1,7 +1,7 @@
 'use strict'
 
 const interactiveButtons = module.exports
-const request = require('request')
+const request = require('./request')
 const nock = require('nock')
 const logger = require('../lib/logger')
 const utils = require('../lib/utils')

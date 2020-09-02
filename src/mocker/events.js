@@ -1,7 +1,7 @@
 'use strict'
 
 const events = module.exports
-const request = require('request')
+const request = require('./request')
 const logger = require('../lib/logger')
 
 events.calls = []
